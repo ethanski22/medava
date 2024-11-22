@@ -10,9 +10,6 @@ public class Transporter {
     private double mLowTemperature, mHighTemperature;
     private List<Shippable> goods;
 
-    // IDK if this is in the right place
-    Transporter semiTruck = new Transporter("LaserShip", 30.0, 80.0);
-
     public String getTransporterName() {
         return mTransporterName;
     }

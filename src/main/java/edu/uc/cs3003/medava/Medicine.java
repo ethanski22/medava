@@ -2,9 +2,10 @@ package edu.uc.cs3003.medava;
 
 public abstract class Medicine implements Shippable {
     private String mMedicineName;
+    public abstract MedicineSchedule getSchedule();
 
     public Medicine(String medicineName) {
-
+        mMedicineName = medicineName;
     }
 
     public String getMedicineName() {
@@ -26,6 +27,4 @@ public abstract class Medicine implements Shippable {
     public double maximumTemperature() {
         return 100.0;
     }
-
-    public abstract MedicineSchedule getSchedule();
 }
