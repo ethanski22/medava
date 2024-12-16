@@ -1,1 +1,11 @@
 Your questions here.
+
+What is the role of the shippable interface
+
+What does the package edu.uc.cs3003.medava; line do in each file
+
+In the pharmacy file why do we create Medicine variables then a Jarvik variable,
+would the program still work the same if it was a Medicine variable
+
+Would someone programming this in a real life scenario code this the same way as
+the instructions, step by step, or just jump to the final code
